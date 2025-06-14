@@ -1,0 +1,15 @@
+nltk
+PyMuPDF
+python-docx
+
+
+
+# project/
+# ├── Text_Preprocessing.py
+# ├── requirements.txt
+# ├── pdf_resumes/
+# │   ├── resume1.pdf
+# │   └── resume2.pdf
+# ├── docx_resumes/
+#     ├── resume1.docx
+#     └── resume2.docx
