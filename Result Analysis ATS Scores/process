@@ -1,0 +1,28 @@
+Automated Resume Screening - Develop a tool that filters resumes based on job descriptions using NLP.
+
+Step-by-Step Approach
+1️⃣ Data Extraction
+  Extract text from PDF & DOCX resumes.
+  Extract job descriptions from a given input.
+  📌 Libraries Used: pymupdf, python-docx
+
+2️⃣ Text Preprocessing
+  Remove stopwords, punctuation, special characters.
+  Apply lemmatization to convert words into their root forms.
+  📌 Libraries Used: nltk, re, string
+
+3️⃣ Resume Matching Using NLP
+  Convert resumes & job descriptions into numerical vectors.
+  Use TF-IDF (Term Frequency - Inverse Document Frequency).
+  Compute similarity scores using Cosine Similarity.
+  📌 Libraries Used: sklearn.feature_extraction.text, sklearn.metrics.pairwise
+
+4️⃣ Ranking & Shortlisting Candidates
+  Sort resumes based on similarity score.
+  Only retain candidates with a score above a threshold (e.g., 70%).
+  📌 Libraries Used: numpy, pandas
+
+5️⃣ ATS Integration
+  Export results in CSV format for integration into an ATS (Applicant Tracking System).
+  📌 Libraries Used: pandas
+  
