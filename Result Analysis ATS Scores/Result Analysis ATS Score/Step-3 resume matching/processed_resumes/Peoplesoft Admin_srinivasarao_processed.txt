@@ -1,0 +1,118 @@
+- peoplesoft administrator srinivask experience summary 10 year experience peoplesoft administrator ample experience peoplesoft installationsconfigurations security system administration
+- adept implement support peoplesoft database administration dba include human resource management system hrms financial system f
+- thorough knowledge experience administrate peoplesoft server component like peoplesoft application server process scheduler server tuxedo web logic server pia peoplesoft internet architecture application message integration broker sql server application issue technical issue etc
+- instal administer peoplesoft software configure workstation application server process scheduler tuxedo web server pia report repository report node peoplesoft application
+- instal elastic search configure peoplesoft
+- solid understand peoplesoft technical architecture tool
+- proficient perform administer patch update upgrade
+- develop implement plan data migration
+- instal configure pum apply tax update use pum aid maintenance peoplesoft pure internet architecture include web logic tuxedo report process server
+- possess thorough knowledge peoplesoft architecture peoplesoft system administration design implement suite corporation specific need
+- cobol installation troubleshoot compile cobol issue perform integration broker setup two module
+- work instance verification test data refresh production ensure data integrity use tool dddaudit sysaudit development phase help create implement security server administration procedure sql oracle database
+- developed functional technical specification perform administrative duty
+- work autosys schedule process
+- monthly maintenance activity like cleaning application web process scheduler server
+- experienced people tool upgrade knowledge application upgrade
+- experienced monitoring peoplesoft job tivoli job schedule console tool create new job schedule job per requirement troubleshoot issue
+- training junior employee peoplesoft administration related task
+- handle project migration security request per work order sent ticket system
+- perform refresh source target database peoplesoft
+- experience online offline clone server
+- adaptive cloud strategy base aws experience aws cloud platform feature include ec2 vpc eb cloud watch load balancer iam s3
+- qualification bachelor technology cse jntu lenora college egg andhrapradesh year 2006
+- technical skill peoplesoft peoplesoft application 89 90 91 92
+- people tool version 848849851852853854855857858 application designer application engine people code data mover process scheduler
+- peoplesoft reporting tool pum image
+- sqr p query xml publisher
+- weblogic tuxedo weblogic819210gr311gr2tuxedo 81911011gr2 122 database oracle 10g oracle 11g oracle 12c
+- operating system window xp20002003 2008 2016r2 unix linux
+- work experience currently work peoplesoft admin tech mahindramahindra satyam june2012 till date work peoplesoft dba hexaware technology june 2009 2012 project7 environment unix window 2016 server 64bit database 12c application level hrms 9235 tool version 85706 project nissan responsibility involve peopletools upgrade people tool 855 857 support hcm fscm application apps dba 247 basis strong experience peoplesoft pum server installation troubleshoot apply fix patch bundle peoplesoft fscm92 hrms92 use peoplesoft pum
+- apply security patch weblogic tuxedo whenever oracle release cpu setup masterslave load balance pubsub service work intensively performance tune pia architecture base load test scale architecture support expect load create dedicate integration broker gateway message volume high easy maintenance
+- instal elastic search configure peoplesoft
+- deployment peoplesoft dpk experience apply peoplesoft release patch prp peoplesoft image experience apply webserver oracle weblogic patch experience apply application server oracle tuxedo patch experience migrate code change test production environment redesign configure high availability load balance exist peoplesoft internet architecture
+- build verification test - check proper installation run process report responsible daily maintenance troubleshoot complex host solution
+- monitoring day-to-day work system
+- handle application management task like apply patch fix
+- build verification test check proper installation run peoplesoft component process report load balance application server web server perform database refreshes import export backup
+- object migration different instance involve compare report building object etc
+- monitoring application server web server process scheduler error check report status block queue processing success etc
+- error log attach check report ran success perform remote call test check integration broker check ren server cluster check server disk space load level peoplesoft ping acceptable level status housekeep activity check cleaning log daily perform project migration data migration
+- generate compare report various environment
+- checked clear cache server application server web server process scheduler server regular basis maintenance process
+- maintain workflow peoplesoft user
+- download update fix apply environment maintain customizations peoplesoft
+- download peoplesoft update image apply application
+- apply patch tax update
+- instal configure change assistant apply pum image
+- perform setup integration broker various environment hrms fscm
+- maintain integrity internal consistency database use dddaudit sysaudit alteraudit report periodically
+- perform jolt failover load balance application server domain process scheduler server domain
+- involve performance database application create multiple domain across instance monitor log file find bottleneck status server troubleshoot data mover instal peoplesoft
+- troubleshoot process scheduler server job stack queue
+- maintain troubleshoot various server like application server process scheduler server web server
+- involve refresh peoplesoft instance weekly twice thrice
+- project6 environment unix window 2008 server 64bit database 12c application level hrms fscm85312 91 project bcbsla responsibility project migration sqr copying sql execution
+- take care migration data peoplesoft object
+- check physical condition server
+- prepare daily status report server condition checked clear application server cache regular basis maintenance process
+- migrate several project development database qa test database production successful test
+- troubleshoot application process scheduler server
+- weekly database refresh
+- expertise installation configuration setup management peoplesoft internet architecture pia environment
+- experience setup integration broker integration peoplesoft instance third party application
+- analytical hardworking individual good communication skill natural ability work team
+- knowledge export import database use oracle data dump mapping schema level table space level import
+- motion long run process em run awr addm report analyse long run sqls
+- install patch install change assist bundle apply bundle hcm fscm troubleshoot fix performance issue
+- project5 environment unix window 2012 server 64bit database 12c application level hrms fscm857 92 project techmahindra internal project responsibility project migration sqr copying sql execution
+- take care migration data peoplesoft object
+- check physical condition server
+- prepare daily status report server condition checked clear application server cache regular basis maintenance process
+- experience deployment packagesdpk pum update image installation
+- migrate several project development database qa test database production successful test
+- troubleshoot application process scheduler server
+- weekly database refresh
+- expertise installation configuration setup management peoplesoft internet architecture pia environment
+- experience setup integration broker integration peoplesoft instance third party application
+- analytical hardworking individual good communication skill natural ability work team
+- knowledge export import database use oracle data dump mapping schema level table space level import
+- motion long run process em run awr addm report analyse long run sqls
+- install patch install change assist bundle apply bundle elm hcm esa troubleshoot fix performance issue
+- project4 environment solaris window nt
+- database 12c application level people tool 855 857 hrms 9
+- window nt unix client starhub
+- responsibility upgrade peoplesoft people tool download template customer connection create job change assistant run change assistant step tool upgrade
+- run compare report take customization functionality upgrade apply fix update patch demo dev test production application take care migration data peoplesoft object install change assistant involve create copy production initial pas move production upgrade process
+- prepare maintain documentation entire upgrade process
+- involve take backup database copy current demo new release demo database
+- run audit report dddaudit sysaudit alteraudit
+- configuration integration broker define gateway create configure node hr finance
+- migration external object peoplesoft project sqr nvision crystal cobol file
+- maintain integrity internal consistency database use dddaudit sysaudit alteraudit report periodically
+- perform jolt failover load balance application server domain process scheduler server domain
+- involve performance database application create multiple domain across instance monitor log file find bottleneck status server troubleshoot data mover instal peoplesoft
+- troubleshoot process scheduler server job stack queue
+- maintain troubleshoot various server like application server process scheduler server web server
+- project3 environment solaris window 2008 server 64bit
+- database 11201 application level hrcs 92 pt853 client minacs bangalore responsibility instal peoplesoft database application nt solaris operating system objective document prepare system architecture enable qf team prepare necessary infrastructure facilitate proper function peoplesoft hcm l application server responsible maintain sql connection database browser request window development environment
+- peoplesoft us tuxedo manage database transaction jolt tuxedo counterpart facilitate transaction request issue internet
+- tuxedo jolt product bea system checked clear application server cache regular basis maintenance process
+- instal people book configure web server access people book
+- prepared copy production database task involve run audit report dddaudit sysaudit migrate several project development database qa test database production successful test installation oracle 11g rac solaris server installation oracle gateway replicate data m sql server
+- expertise installation configuration setup management peoplesoft internet architecture pia environment
+- experience setup integration broker integration peoplesoft instance third party application experienced oracle rac datagaurd oracle gateway
+- analytical hardworking individual good communication skill natural ability work team knowledge export import database use oracle data dump mapping schema level table space level import motion long run process em run awr addm report analyze long run sqls installation license updation cobol 50 51on aix lintel install patch install change assist bundle apply bundle elm hcm esa troubleshoot fix performance issue knowledge pum creation change package project2 environment unix window 2008 server 64bit database 11201 application level fscm 91 pt852 project ge health care responsibility project migration sqr copying sql execution
+- take care migration data peoplesoft object
+- check physical condition server
+- prepare daily status report server condition checked clear application server cache regular basis maintenance process migrate several project development database qa test database production successful test
+- troubleshoot application process scheduler server expertise installation configuration setup management peoplesoft internet architecture pia environment
+- experience setup integration broker integration peoplesoft instance third party application analytical hardworking individual good communication skill natural ability work team motion long run process em run awr addm report analyze long run sqls installation license updation cobol 50 51on aix lintel install patch install change assist bundle apply bundle elm hcm esa troubleshoot fix performance issue project1 environment window 2008 server 64bit database 10g application level hrcs 9 pt851 project university qatarqfis description implementation peoplesoft applicationshrms qatar university concentrate student adminissions transcript campus self service responsibility instal peoplesoft application people tool 851 application hcm c 9 tuxedo 10gr3and web logic 10gr3 instal pia configure pia instance demo dev test config prod database configuration integration broker define gateway create configure node prepared maintain documentation installation configuration
+- expertise installation configuration setup management peoplesoft internet architecture pia environment
+- experience setup integration broker integration peoplesoft instance third party application analytical hardworking individual good communication skill natural ability work team motion long run process em run awr addm report analyze long run sqls installation license updation cobol 50 51on aix lintel install patch install change assist bundle apply bundle elm hcm esa troubleshoot fix performance issue knowledge pum creation change package update database apply updatesfixespatches backup timely basis kept record updatesfixespatches configure application server web server batch process scheduler server
+- configure window development client connect 2-tier 3-tier database development administration purpose
+- instal bea tuxedo application server web server database create peoplesoft demo system database apply related database patch application patch
+- extensively use psadmin utility administer create delete application server process scheduler server
+- checked clear application server cache regular basis maintenance process
+- instal people book configure web server access people book
+- prepared copy production database task involve run audit report dddaudit sysaudit
