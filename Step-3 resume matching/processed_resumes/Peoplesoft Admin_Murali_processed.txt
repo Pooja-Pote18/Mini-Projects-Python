@@ -1,0 +1,58 @@
+- classification internal murali experience summary 6 year experience work peoplesoft administration perform various infrastructure related activity peoplesoft environment
+- instal configure peoplesoft 909192 web server application server database server process scheduler server window unix linux platform
+- create domain web server application server process scheduler server
+- apply patch manually apply maintenance pack change assistant tool
+- experience dpks installation
+- apply tax update fix use pum migrate project one environment another environment use application designer also capi stat tool
+- perform single sign ssoimplementation
+- experience run compare report pre post migration
+- experience set client workstation developer tester
+- involve configuration integration broker set module send message
+- involve 247 production support client
+- involve run audit report dddaudit sysaudit integrity check
+- experience configuration setup ren server
+- configure maintain report node setting
+- checked clear cache server
+- involve troubleshoot server like application server web server process scheduler server
+- work peopletools upgrade pt852 pt855 855 857
+- instal configure elastic search 612 career profile date organization role 22nd mar 2021 25th may 2021 l n infotech peoplesoft administrator client sembcorp brazil description project involve active production support field hrms 92
+- additionally also involve maintenance enhancement system
+- classification internal responsibility installation setup people soft hcm elm 92 oracle
+- create database user assign role privilege user
+- maintain various people soft instance
+- debug resolve issue related application serverweb serverprocess scheduler
+- weeklymonthly database maintains
+- perform people tool upgrade 85514 85705
+- perform post refresh activity
+- date organization role 9th nov 2018 19th mar 2021 regency technology peoplesoft administrator client wipro ind platform people tool 856 people soft hcm 92
+- description project involve active production support field hrms 92
+- additionally also involve maintenance enhancement system
+- responsibility installation setup people soft hcm 92 oracle
+- create database user assign role privilege user
+- maintain various people soft instance
+- debug resolve issue related application serverweb serverprocess scheduler
+- weeklymonthly database maintains
+- create modify data mover script
+- migrate project use capi
+- apply patch
+- set peoplesoft reporting environment reporting
+- interact client various production related issue
+- apply tax update use pum
+- perform post refresh activity
+- date organization role 9th nov 2015 30th nov 2017 dxc technology formerly know csc peoplesoft administrator project title people soft hcm production support enhancement client asg usa classification internal platform people tool 852854 people soft hcm 9092 db2 aix 51
+- description project involve active production support field hrms 90
+- additionally also involve maintenance enhancement system
+- responsibility installation setup people soft hcm 9091 db2
+- create database user assign role privilege user
+- maintain various people soft instance
+- debug resolve issue related application serverweb serverprocess scheduler
+- weeklymonthly database maintains
+- create modify data mover script
+- migrate project use statcapi
+- apply patch
+- set peoplesoft reporting environment reporting
+- interact client various production related issue
+- apply tax update use pum
+- perform post refresh activity
+- technology operating system window platform linux erp tool peoplesoft hrms 90 peopletools 847848 850 852 putty sql toad beyond compare
+- rdbms oracle 10g11g schedule tool autosys version control tool capi stat language c c sql personal detail classification internal date place hyderabad date birth 15-08-1982 nationality indian

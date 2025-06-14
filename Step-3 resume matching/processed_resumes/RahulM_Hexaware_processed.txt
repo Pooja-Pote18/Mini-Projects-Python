@@ -1,0 +1,63 @@
+- workday hcm techno functional consultant rahul techno functional consultant professional summary around 5 year experience erp experience include 3 year workday hcm expertise workday hcm benefit leave absence integration reporting workday studio
+- core qualification skill involve full life cycle workday implementation experience requirement gathering post deployment product support hcm module well various integration workday
+- hand configure various core hcm benefit recruiting payroll talent module
+- expertise report writer eib picof dt workday studio ccwccbbirt calc field
+- expertise payroll integration workday adp p use picof peci
+- developed maintain custom-report type advanced matrix use report writer tool
+- hand experience create birt layout use report designer use report designer
+- involve transformation xml xslt present data different web service
+- expertise workday security leave absence recruiting configure befit 401 plan etc
+- good knowledge create leave family leave type absence condition rule module
+- experience inboundoutbound integration use eib ccwccb report write create workday cal field custom report matrix composite trend advanced birt tool
+- configure custom dashboard create report add various dash board
+- configure bp leave absence recur core hcm write condition rule step etc
+- expertise building eib enterprise interface builder integration within wd send data prioritize reproduce verify bug fix different workday integration report bps
+- ability work creatively analytically problem-solving workday production environment interaction work stream include functional conversion project management
+- expertise develop payroll interface use picof peci help workday studio document transformation meet client complex payroll requirement use dt studio
+- experience understand gathering business requirement translate functional specification develop code along detailed design perform utp test case wd
+- excellent client interaction skill experience work independently well team
+- developed several complex integration use workday studio eib ccw picof dt
+- good knowledge etvxtt function document transformation validate data
+- knowledge xml wd-soap web service wd- rest web service experienced use soap ui postman xml exchanger tool test api call
+- experience get requirement client hand share work across team
+- hand experience create new security group update security group various domain security police activate security policy identify security object
+- professional experience work software engineer infosys jun 2016 till date
+- technical- skill
+- workday skill workday hcm workday advanced report writer core connector picof document transformation workday studio eib workday web service business process security birt absence talent
+- program language xml xslt x-path web technology soap xml xsd web service wsdl soap xslt
+- operating system window xpvistawindows78 education detail complete b-tech jntu anantapur 2016 70 %
+- project profile- project-2 implementation support workday hcm client cdk global
+- role workday techno functional consultant
+- description cdk global large global provider integrate information technology digital marketing solution automotive dealership manufacturer 100 country worldwide world big car brand although operate global scale small comparison good thing mean still business every person matter anyone make impact growth success opportunity wide range business area wherever world join u get support training tool need make significant role responsibility understand business requirement study functional document
+- modify xslt code per cr-request add new xslt different info type
+- create new wd studio program send ai-statement worker document use birt
+- create custom report per client requirement prepare utp document
+- create workday studio program load compensation data adp workday
+- create eib inbound integration load employee personal information like emergency contact one-time payment bank account information cost center information
+- create eib integration write xslt code send data wd downstream system
+- hands-on experience create calculate field use different function complete logic
+- support different team uat phase test factory team integration test
+- involve call client update work status well clarification
+- handle workday service upgrade test wd29 wd30 exist integration responsible support new change request enhancement project
+- create calculate field work simple advanced matrix trend report
+- work integration system eib core connector picofdt workday studio
+- day day support workday integration security business process reporting issue
+- coordinate onshore requirement gathering implementation test enhancement integration report business process eibbirt workday studio integration
+- configure various business process create notification integration report etc
+- design web service sendreceive workday third-party system use api call
+- developed analytics dashboard data source provide actionable reporting analytics
+- deployed workday object use solution implementation uat production tenant follow change management process solve migration issue use ox
+- configure leave family leave type absence rule country per business requirement involve workday version upgrade test schedule monitoring integration
+- expertise develop payroll interface use picof peci help workday studio dt meet client complex payroll requirement send diff payroll vendor
+- experienced analyze prepare project deliverable technical design document tdd
+- hands-on experience migrate xslt code report low tenet sandbox production use object transporter
+- create new outbound integration send time correction information workday adp payroll system
+- project-2 implementation support workday hcm client cdk global
+- role workday p consultant
+- description cdk global large global provider integrate information technology digital marketing solution automotive dealership manufacturer 100 country worldwide world big car brand although operate global scale small comparison good thing mean still business every person matter anyone make impact growth success opportunity wide range business area wherever world join u get support training tool need make significant role responsibility responsible various customizations field record page component menu per client requirement use application designer customize job data component accommodate field use input system work app engine sqer p query component interface
+- create ci ae import job requisition data peoplesoft system file perform validation insert p system
+- involve functionality send email notification user help send mail function
+- use process scheduler run schedule process specific time andor run recursively specific interval use process monitor view status process
+- create new application engine program send employee data third party system
+- generate relocation letter per hr request send daily process report client
+- developed people code implement specific business rule validation enable system perform business process
