@@ -4,20 +4,19 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 import re
+import string
 import os
 import pymupdf
 import docx
-import pandas as pd
-import numpy as np
 
-# Download NLTK resources
+# Download necessary NLTK resources
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
 nltk.download('averaged_perceptron_tagger')
 
-# Global resources
-stop_words = set(stopwords.words('english'))
+# Global initializations
+STOP_WORDS = set(stopwords.words('english'))
 lemmatizer = WordNetLemmatizer()
 
 def get_wordnet_pos(word):
@@ -31,20 +30,21 @@ def get_wordnet_pos(word):
 def preprocess_text(text):
     sentences = sent_tokenize(text)
     processed_sentences = []
+
     for sentence in sentences:
         sentence = sentence.lower()
-        sentence = re.sub(r'[^a-zA-Z0-9\s%-]', '', sentence)
+        sentence = re.sub(r'[^\w\s@.-]', '', sentence)
         tokens = word_tokenize(sentence)
-        filtered_tokens = [word for word in tokens if word not in stop_words]
+        filtered_tokens = [word for word in tokens if word not in STOP_WORDS]
         lemmatized_tokens = [lemmatizer.lemmatize(word, get_wordnet_pos(word)) for word in filtered_tokens]
         processed_sentences.append(' '.join(lemmatized_tokens))
+
     return ' '.join(processed_sentences)
 
 def extract_text_from_pdf(pdf_path):
     try:
         doc = pymupdf.open(pdf_path)
-        text = "\n".join([page.get_text("text") for page in doc])
-        return text.strip()
+        return "\n".join([page.get_text("text") for page in doc]).strip()
     except Exception as e:
         print(f"Error reading PDF '{pdf_path}': {e}")
         return ""
@@ -52,15 +52,15 @@ def extract_text_from_pdf(pdf_path):
 def extract_text_from_docx(docx_path):
     try:
         doc = docx.Document(docx_path)
-        text = "\n".join([para.text for para in doc.paragraphs])
-        return text.strip()
+        return "\n".join([para.text for para in doc.paragraphs]).strip()
     except Exception as e:
         print(f"Error reading DOCX '{docx_path}': {e}")
         return ""
 
 def get_keywords(text):
     tokens = word_tokenize(text.lower())
-    return set([lemmatizer.lemmatize(word, get_wordnet_pos(word)) for word in tokens if word.isalpha() and word not in stop_words])
+    filtered = [lemmatizer.lemmatize(word, get_wordnet_pos(word)) for word in tokens if word not in STOP_WORDS and word.isalpha()]
+    return set(filtered)
 
 def calculate_ats_score(resume_keywords, jd_keywords):
     if not jd_keywords:
@@ -81,24 +81,9 @@ def load_job_description(jd_path):
             print(f"Error reading JD file: {e}")
     return ""
 
-def rank_and_shortlist(scores_dict, top_n=5):
-    df = pd.DataFrame(scores_dict.items(), columns=["Candidate", "ATS_Score"])
-    df.sort_values(by="ATS_Score", ascending=False, inplace=True)
-    df.reset_index(drop=True, inplace=True)
-
-    print("\n📊 Ranked Candidates:")
-    print(df)
-
-    print(f"\n✅ Top {top_n} Shortlisted Candidates:")
-    print(df.head(top_n))
-
-    df.to_csv("ranked_candidates.csv", index=False)
-    print("\n📁 Results saved to 'ranked_candidates.csv'")
-
 def process_resumes(pdf_folder, docx_folder, jd_text):
     jd_processed = preprocess_text(jd_text)
     jd_keywords = get_keywords(jd_processed)
-    scores = {}
 
     for resume_folder in [pdf_folder, docx_folder]:
         if not os.path.exists(resume_folder):
@@ -118,21 +103,21 @@ def process_resumes(pdf_folder, docx_folder, jd_text):
             if text:
                 processed_text = preprocess_text(text)
                 resume_keywords = get_keywords(processed_text)
-                ats_score = calculate_ats_score(resume_keywords, jd_keywords)
-                scores[filename] = ats_score
+                score = calculate_ats_score(resume_keywords, jd_keywords)
+                print(f"Processed Resume: {filename}")
+                print(f"ATS Match Score: {score}%\n")
             else:
                 print(f"Skipping empty or unreadable file: {filename}")
 
-    rank_and_shortlist(scores, top_n=5)
-
-# Entry point
+# Example usage
 if __name__ == "__main__":
-    pdf_folder = input("Enter the path for the PDF resumes folder: ")
-    docx_folder = input("Enter the path for the DOCX resumes folder: ")
-    jd_path = input("Enter the path for the Job Description file (TXT, PDF, or DOCX): ")
+    pdf_folder = input("Enter path for PDF resumes folder: ")
+    docx_folder = input("Enter path for DOCX resumes folder: ")
+    jd_path = input("Enter path to the job description file (PDF, DOCX, or TXT): ")
 
     jd_text = load_job_description(jd_path)
-    if not jd_text:
-        print("❌ Failed to load job description. Please check the path or format.")
-    else:
+    if jd_text:
         process_resumes(pdf_folder, docx_folder, jd_text)
+    else:
+        print("Failed to load the job description.")
+
