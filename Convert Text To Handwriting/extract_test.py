@@ -1,13 +1,14 @@
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
-import PyPDF2
-from PIL import Image, ImageDraw, ImageFont
-from reportlab.pdfgen import canvas
+from tkinter import Tk    
+from tkinter.filedialog import askopenfilename   #for GUI file selection dialog.
+import PyPDF2   #to extract text from PDF
+from PIL import Image, ImageDraw, ImageFont    #to create handwriting-style image (PNG).
+from reportlab.pdfgen import canvas            #to create handwriting-style PDF.
 from reportlab.lib.pagesizes import A4
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.pdfbase import pdfmetrics
-import os
+import os                       #os, sys → handle file paths and script exits.
 import sys
+
 
 #  Determine Script Folder 
 script_folder = os.path.dirname(os.path.abspath(__file__))
