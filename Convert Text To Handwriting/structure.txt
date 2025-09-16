@@ -1,51 +1,51 @@
-                                                                      +------------------+
-                                                                      |   Start Script   |
-                                                                      +------------------+
-                                                                               |
-                                                                               v
-                                                                  +------------------------+
-                                                                  | Select PDF via Tkinter |
-                                                                  +------------------------+
-                                                                               |
-                                                                               v
-                                                                   +-----------------------+
-                                                                   | Check Handwriting Font|
-                                                                   | (default or select)  |
-                                                                   +-----------------------+
-                                                                               |
-                                                                               v
-                                                                  +-------------------------+
-                                                                  | Extract Text from PDF   |
-                                                                  |  using PyPDF2           |
-                                                                  +-------------------------+
-                                                                               |
-                                                                               v
-                                                                  +-------------------------+
-                                                                  | Convert to Handwriting  |
-                                                                  |  Image (PNG)            |
-                                                                  | - Create blank image    |
-                                                                  | - Draw each line using  |
-                                                                  |   selected font         |
-                                                                  +-------------------------+
-                                                                               |
-                                                                               v
-                                                                  +-------------------------+
-                                                                  | Convert to Handwriting  |
-                                                                  |  PDF (A4)               |
-                                                                  | - Register font         |
-                                                                  | - Draw text line by line|
-                                                                  | - Create new page if    |
-                                                                  |   needed                |
-                                                                  +-------------------------+
-                                                                               |
-                                                                               v
-                                                                      +------------------+
-                                                                      |  Save Outputs:   |
-                                                                      | handwriting.png  |
-                                                                      | handwriting.pdf  |
-                                                                      +------------------+
-                                                                               |
-                                                                               v
-                                                                      +------------------+
-                                                                      |     End Script   |
-                                                                      +------------------+
+                                  +------------------+
+                                  |   Start Script   |
+                                  +------------------+
+                                           |
+                                           v
+                              +------------------------+
+                              | Select PDF via Tkinter |
+                              +------------------------+
+                                           |
+                                           v
+                               +-----------------------+
+                               | Check Handwriting Font|
+                               | (default or select)  |
+                               +-----------------------+
+                                           |
+                                           v
+                              +-------------------------+
+                              | Extract Text from PDF   |
+                              |  using PyPDF2           |
+                              +-------------------------+
+                                           |
+                                           v
+                              +-------------------------+
+                              | Convert to Handwriting  |
+                              |  Image (PNG)            |
+                              | - Create blank image    |
+                              | - Draw each line using  |
+                              |   selected font         |
+                              +-------------------------+
+                                           |
+                                           v
+                              +-------------------------+
+                              | Convert to Handwriting  |
+                              |  PDF (A4)               |
+                              | - Register font         |
+                              | - Draw text line by line|
+                              | - Create new page if    |
+                              |   needed                |
+                              +-------------------------+
+                                           |
+                                           v
+                                  +------------------+
+                                  |  Save Outputs:   |
+                                  | handwriting.png  |
+                                  | handwriting.pdf  |
+                                  +------------------+
+                                           |
+                                           v
+                                  +------------------+
+                                  |     End Script   |
+                                  +------------------+
