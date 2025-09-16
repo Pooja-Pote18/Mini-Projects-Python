@@ -2,24 +2,24 @@
                                   |   Start Script   |
                                   +------------------+
                                            |
-                                           v
+                                           
                               +------------------------+
                               | Select PDF via Tkinter |
                               +------------------------+
                                            |
-                                           v
+                                           
                                +-----------------------+
                                | Check Handwriting Font|
                                | (default or select)  |
                                +-----------------------+
                                            |
-                                           v
+                                           
                               +-------------------------+
                               | Extract Text from PDF   |
                               |  using PyPDF2           |
                               +-------------------------+
                                            |
-                                           v
+                                           
                               +-------------------------+
                               | Convert to Handwriting  |
                               |  Image (PNG)            |
@@ -28,7 +28,7 @@
                               |   selected font         |
                               +-------------------------+
                                            |
-                                           v
+                                           
                               +-------------------------+
                               | Convert to Handwriting  |
                               |  PDF (A4)               |
@@ -38,14 +38,14 @@
                               |   needed                |
                               +-------------------------+
                                            |
-                                           v
+                                           
                                   +------------------+
                                   |  Save Outputs:   |
                                   | handwriting.png  |
                                   | handwriting.pdf  |
                                   +------------------+
                                            |
-                                           v
+                                           
                                   +------------------+
                                   |     End Script   |
                                   +------------------+
