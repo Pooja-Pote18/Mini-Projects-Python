@@ -1,11 +1,3 @@
-handwriting-pdf/
-│── main.py                 # your main script
-│── requirements.txt        # dependencies
-│── README.md               # usage instructions
-│── DancingScript-Regular.ttf (optional default font)
-│── output/                 # generated files go here
-
-
 
 #OUTPUT PAGE-
 
