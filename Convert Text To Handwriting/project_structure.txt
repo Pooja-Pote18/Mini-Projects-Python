@@ -4,3 +4,60 @@ handwriting-pdf/
 │── README.md               # usage instructions
 │── DancingScript-Regular.ttf (optional default font)
 │── output/                 # generated files go here
+
+
+
+
+# workflow-
+
+                                  +------------------+
+                                  |   Start Script   |
+                                  +------------------+
+                                           |
+                                           
+                              +------------------------+
+                              | Select PDF via Tkinter |
+                              +------------------------+
+                                           |
+                                           
+                               +-----------------------+
+                               | Check Handwriting Font|
+                               | (default or select)  |
+                               +-----------------------+
+                                           |
+                                           
+                              +-------------------------+
+                              | Extract Text from PDF   |
+                              |  using PyPDF2           |
+                              +-------------------------+
+                                           |
+                                           
+                              +-------------------------+
+                              | Convert to Handwriting  |
+                              |  Image (PNG)            |
+                              | - Create blank image    |
+                              | - Draw each line using  |
+                              |   selected font         |
+                              +-------------------------+
+                                           |
+                                           
+                              +-------------------------+
+                              | Convert to Handwriting  |
+                              |  PDF (A4)               |
+                              | - Register font         |
+                              | - Draw text line by line|
+                              | - Create new page if    |
+                              |   needed                |
+                              +-------------------------+
+                                           |
+                                           
+                                  +------------------+
+                                  |  Save Outputs:   |
+                                  | handwriting.png  |
+                                  | handwriting.pdf  |
+                                  +------------------+
+                                           |
+                                           
+                                  +------------------+
+                                  |     End Script   |
+                                  +------------------+
